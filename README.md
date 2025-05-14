@@ -1,21 +1,21 @@
-# Steganographyx
+# DataCon
 
-# Steganographyx is an open source project you can contribute in it and can modify and update the new build. You can generate pull request in order to contribute in this project and make it more easy to use and more advanced for users.
+# DataCon is an open source project you can contribute in it and can modify and update the new build. You can generate pull request in order to contribute in this project and make it more easy to use and more advanced for users.
 
 
-To contribute to the Steganographyx repository, you can follow these steps and update the README file accordingly:
+To contribute to the DataCon repository, you can follow these steps and update the README file accordingly:
 
-# Contributing to Steganographyx
-Steganographyx is an open-source project, and we welcome contributions from the community to make it more user-friendly and advanced. Here's how you can contribute:
+# Contributing to DataCon
+DataCon is an open-source project, and we welcome contributions from the community to make it more user-friendly and advanced. Here's how you can contribute:
 
 # How to Contribute
 1. Fork the Repository:
-2. Go to the Steganographyx repository.
+2. Go to the DataCon repository.
 3. Click on the ```Fork``` button in the upper right corner to create your own copy of the repository.
 4. Clone your Fork:
 Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/your-username/Steganographyx.git
+git clone https://github.com/your-username/DataCon.git
 ```
 5. Install Dependencies Navigate to the cloned directory and install the required Python libraries:
 ```
@@ -42,15 +42,12 @@ git push origin master
 9. Go to your fork on GitHub and click on the "New Pull Request" button.
 10. Provide a meaningful title and description for your pull request.
 11. Submit the pull request.
-12. Project Structure- The Steganographyx project is organized into two main sections: Image Steganography and Wave Audio Steganography. Each section has its set of classes and methods:
+12. Project Structure- The DataCon project is organized into two main sections: Image Steganography. Each section has its set of classes and methods:
 Image Steganography:
 
 Encode class: Handles encoding (hiding) secret messages within images.
 Decode class: Handles decoding (extracting) secret messages from images.
-Wave Audio Steganography:
 
-ExtractWaveGUI class: Provides a GUI for extracting hidden messages from wave audio files.
-HiddenWaveGUI class: Provides a GUI for hiding messages in wave audio files.
 
 # What is steganography?
 
@@ -63,11 +60,11 @@ The steganography program provided is a Python application that facilitates hidi
 
 ## Installation
 
-To use Steganographyx, follow these steps:
+To use DataCon, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/athrvadeshmukh/Steganographyx.git
+git clone https://github.com/shreya5024/DataCon.git
 ```
 
 # Libraries
@@ -114,33 +111,14 @@ get_decoded_text(bytes_string): Decrypts the extracted bytes string to obtain th
 decode_from_image(): Extracts the encoded binary data from the image.
 are_values_valid(): Validates the password and image path before decoding.
 
-# 2. Wave Audio Steganography
-class ExtractWaveGUI
-Purpose: Provides a GUI for extracting hidden messages from wave audio files.
-Methods:
-__init__(root): Initializes the GUI window and sets up the necessary components.
-create_widgets(): Creates the GUI components, including labels, entry widgets, and buttons.
-browse_audio(): Opens a file dialog for selecting a wave audio file.
-extract_message(): Extracts and displays the hidden message from the selected wave audio file.
-class HiddenWaveGUI
-Purpose: Provides a GUI for hiding messages in wave audio files.
-Methods:
-__init__(root): Initializes the GUI window and sets up the necessary components.
-create_widgets(): Creates the GUI components, including labels, entry widgets, and buttons.
-display_logo(): Displays a logo image in the GUI.
-browse_audio(): Opens a file dialog for selecting a wave audio file.
-browse_output(): Opens a file dialog for selecting the output path and filename.
-hide_message(): Hides the entered message in the selected wave audio file and saves the result.
 
 # How to Run
 Ensure the required libraries are installed (Pillow, pycryptodome, Numpy, Tkinter, Wave).
-Run the respective scripts for image steganography (encryptstego.py) or wave audio steganography (encode_audio.py and decode_audio.py).
+Run the respective scripts for image steganography (encryptstego.py) .
 Follow the GUI instructions to select input files, enter messages, and perform encoding or decoding.
 
 # Notes
 Image steganography modifies the least significant bit (LSB) of each pixel's channels to hide the message.
-Wave audio steganography modifies the LSB of each audio frame to hide the message.
-The length of the message affects the number of frames modified in wave audio steganography.
 Feel free to reach out if you have any questions or need further assistance!
 
 
@@ -153,25 +131,3 @@ Feel free to reach out if you have any questions or need further assistance!
 ![Screenshot 2023-11-08 215423](https://github.com/athrvadeshmukh/Steganography/assets/112002659/5f53581c-ad8f-4cd6-b547-88381c76fac5)
 
 ![Screenshot 2023-11-08 215442](https://github.com/athrvadeshmukh/Steganography/assets/112002659/5e879a0e-12ff-46ad-802b-487fad44bfd5)
-
-
-
-
-
-# Licence 
-Copyright 2023 Athrva Deshmukh
-License
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-Steganographyx is licensed under the Apache License, Version 2.0. See the License file for more details.
-Copyright 2023 [ATHRVA DESHMUKH](https://github.com/athrvadeshmukh)
