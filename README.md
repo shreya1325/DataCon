@@ -64,7 +64,7 @@ To use DataCon, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/shreya5024/DataCon.git
+git clone https://github.com/shreya1325/DataCon.git
 ```
 
 # Libraries
